@@ -5,6 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
     dcl.classList.add('done');
 });
 
-window.addEventListener("load", function () {
-    load.classList.add('done');
-});
+// window.addEventListener("load", function () {
+//     load.classList.add('done');
+// });

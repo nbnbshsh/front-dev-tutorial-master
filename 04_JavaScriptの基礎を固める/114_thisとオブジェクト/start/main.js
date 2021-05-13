@@ -25,6 +25,12 @@ class MyObj {
     }
 }
 
+const window={
+    setTimeout: function(fn){
+        fn();
+    }
+}
+
 const obj2 = new MyObj();
 
 

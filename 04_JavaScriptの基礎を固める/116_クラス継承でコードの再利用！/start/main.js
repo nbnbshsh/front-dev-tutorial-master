@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-class TextAnimation {
+class TextAnimation extends TextAnimation2{
     constructor(el) {
         this.el = document.querySelector(el);
         this.chars = this.el.innerHTML.trim().split("");
